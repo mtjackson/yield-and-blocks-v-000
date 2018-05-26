@@ -5,6 +5,8 @@ def hello_t(array)
     array do |name|
       if name.start_with?("T")
         puts "Hi, #{name}"
+      end
+    end
     i += 1
   end
 
