@@ -3,6 +3,7 @@ def hello_t(array)
   while i < array.length
     yield array[i]
     array do |name|
+      if name.start_with?("T")
     i += 1
   end
 
