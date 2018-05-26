@@ -4,6 +4,7 @@ def hello_t(array)
     yield array[i]
     array do |name|
       if name.start_with?("T")
+        puts "Hi, #{name}"
     i += 1
   end
 
